@@ -2,7 +2,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>in.indigenous</groupId>
 	<artifactId>common-sso-dev</artifactId>
-	<version>0.1.0-RELEASE</version>
+	<version>0.1.0-SNAPSHOT</version>
 	<properties>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -87,11 +87,6 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.22.0</version>
-				<configuration>
-					<tagBase>
-						file:///C:/abhijit/projects/releases/common-sso-dev/tags
-					</tagBase>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
