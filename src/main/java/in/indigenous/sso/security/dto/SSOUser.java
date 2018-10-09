@@ -1,14 +1,15 @@
 package in.indigenous.sso.security.dto;
 
+import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
 
-public class SSOUser {
+public class SSOUser implements Serializable {
 
 	/**
 	 * Generated Serial version UId.
 	 */
-	private static final long serialVersionUID = -6467869303209671539L;
+	private static final long serialVersionUID = -6427971975858371020L;
 
 	private String email;
 
