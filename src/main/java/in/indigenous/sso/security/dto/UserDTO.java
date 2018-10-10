@@ -9,7 +9,7 @@ public class UserDTO implements Serializable {
 	 */
 	private static final long serialVersionUID = -1224514662522167553L;
 
-	private String donmain;
+	private String domain;
 
 	private String subDomain;
 
@@ -21,20 +21,20 @@ public class UserDTO implements Serializable {
 
 	}
 
-	public UserDTO(String donmain, String subDomain, String application, String userName) {
+	public UserDTO(String domain, String subDomain, String application, String userName) {
 		super();
-		this.donmain = donmain;
+		this.domain = domain;
 		this.subDomain = subDomain;
 		this.application = application;
 		this.userName = userName;
 	}
 
-	public String getDonmain() {
-		return donmain;
+	public String getDomain() {
+		return domain;
 	}
 
-	public void setDonmain(String donmain) {
-		this.donmain = donmain;
+	public void setDomain(String domain) {
+		this.domain = domain;
 	}
 
 	public String getSubDomain() {

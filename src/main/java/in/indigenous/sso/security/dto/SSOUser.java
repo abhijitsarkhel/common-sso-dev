@@ -23,7 +23,7 @@ public class SSOUser implements Serializable {
 
 	private List<String> domainRoles;
 
-	private List<Map<String, List<String>>> appRoles;
+	private List<Map<String, List<Map<String, List<String>>>>> appRoles;
 
 	public String getEmail() {
 		return email;
@@ -65,11 +65,11 @@ public class SSOUser implements Serializable {
 		this.domainRoles = domainRoles;
 	}
 
-	public List<Map<String, List<String>>> getAppRoles() {
+	public List<Map<String, List<Map<String, List<String>>>>> getAppRoles() {
 		return appRoles;
 	}
 
-	public void setAppRoles(List<Map<String, List<String>>> appRoles) {
+	public void setAppRoles(List<Map<String, List<Map<String, List<String>>>>> appRoles) {
 		this.appRoles = appRoles;
 	}
 
