@@ -84,7 +84,7 @@
 		<developerConnection>scm:git:file:///C:/abhijit/git/projects/common-sso-dev</developerConnection>
 	</scm>
 	<build>
-		<finalName>sso-dev</finalName>
+		<finalName>common-sso-dev</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
