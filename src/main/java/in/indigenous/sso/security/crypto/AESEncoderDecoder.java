@@ -12,7 +12,9 @@ import javax.crypto.spec.PBEKeySpec;
 import javax.crypto.spec.SecretKeySpec;
 import javax.xml.bind.DatatypeConverter;
 
+import org.springframework.stereotype.Component;
 
+@Component
 public class AESEncoderDecoder implements EncoderDecoder {
 
 	private String salt;
